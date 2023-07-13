@@ -1,20 +1,22 @@
 body {
-    font-family: Verdana;
+    background-color: #E4B7A0;
+    font-family: monospace;
 }
 
 #header {
     margin: 20px;
     margin-top: 30px;
-    margin-bottom: 60px;
     padding: 15px;
     text-align: center;
-    background-color: #d7d7d7;
+    background-color: #C38370;
     border-radius: 20px;;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 #header h1 {
-    color: white;
+    color: #F6EEE0
+
+    ;
     font-size: 100px;
     text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
 }
@@ -24,38 +26,50 @@ body {
     display: block;
     padding-top: 60px;
     padding-bottom: 60px; 
-    background-color: #efefef;
-    box-shadow: 0 0px 10px rgba(120, 120, 120, 0.5);
+    background-color: #C38370;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
-    width: fit-content;
+    width: 75%;
 }
 
 #jar-container img {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: block;
 }
 
-#photos-container {
-    align-items: center;
-    margin: 60px auto;
+.text-field {
+    margin: 0 auto;
     display: block;
-    padding: 25px;
-    background-color: #eeeeee;
-    border: solid 15px;
-    border-radius: 25px;
-    border-color: #e0e0e0;
-    width: 85%;
-    height: fit-content;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%
+}
+
+.text-field p {
+    color: #A45C40;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#photo-contianer {
+    text-align: center;
 }
 
 .photo {
-    margin: 30px;
     position: relative;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    height: fit-content;
+    margin: 25px;
+    border: solid 15px;
+    border-color: #C38370;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+    width: 225px;
+}
+
+.scanned {
+
 }
