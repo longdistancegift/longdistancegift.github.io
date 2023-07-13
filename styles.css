@@ -61,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     width: fit-content;
-    height: fit-content;
+    height: auto;
     margin: 25px;
     border: solid 15px;
     border-color: #C38370;
@@ -70,6 +70,8 @@ body {
     width: 225px;
 }
 
-.scanned {
-
+#QR-code {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
 }
