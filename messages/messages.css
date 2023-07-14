@@ -53,6 +53,7 @@ body {
 .text-field {
     margin: 0 auto;
     display: block;
+    padding-top: 5px;
     width: 80%
 }
 
