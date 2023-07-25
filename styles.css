@@ -72,7 +72,9 @@ body {
 }
 
 #QR-code {
-    margin: 0 auto;
+    margin: 60px auto;
     display: block;
-    width: 70%;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
